@@ -13,7 +13,7 @@ const mealOptions = [
 ]
 
 export default function PredictionFormPage() {
-  const [meal, setMeal] = useState<{ value: string; label: string } | null>(
+  const [meal, setMeal] = useState<{ value: string; label: string }[] | null>(
     null,
   )
   const [range, setRange] = useState([
@@ -75,8 +75,14 @@ export default function PredictionFormPage() {
   }
 
   return (
-    <div className="w-full flex items-center justify-center bg-gray-50 p-4 min-h-screen">
-      <div className="w-1/2  bg-white shadow-xl rounded-lg p-8 z-10">
+    <div className="w-full flex items-start justify-center bg-gray-50 p-4 h-[99vh] gap-6">
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url('/background_image.png')`,
+        }}
+      />
+      <div className="w-1/2 h-full bg-white shadow-xl rounded-lg p-8 z-10 flex flex-col justify-between ">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
           Plan Your Perfect Meal
         </h2>
@@ -89,6 +95,7 @@ export default function PredictionFormPage() {
           </label>
           <Select
             options={mealOptions}
+            isMulti
             value={meal}
             onChange={setMeal}
             placeholder="e.g. Chicken Grill"
@@ -113,7 +120,7 @@ export default function PredictionFormPage() {
         </button>
       </div>
 
-      <div className="w-1/3  bg-white shadow-xl rounded-lg p-8 z-10 ml-6 flex flex-col justify-between">
+      <div className="w-1/3 h-full bg-white shadow-xl rounded-lg p-8 z-10 flex flex-col justify-between overflow-y-auto">
         <div>
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
             Prediction Overview
@@ -145,7 +152,10 @@ export default function PredictionFormPage() {
               <h3 className="text-lg font-semibold text-gray-700 mb-2">
                 🛒 Ingredients Needed
               </h3>
-              <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
+              <ul
+                className="list-disc list-inside space-y-1 text-gray-600 text-sm"
+                style={{ maxHeight: '280px', overflowY: 'scroll' }}
+              >
                 {prediction.ingredients.map((ing, i) => (
                   <li key={i}>
                     {ing.quantity} of {ing.name}
