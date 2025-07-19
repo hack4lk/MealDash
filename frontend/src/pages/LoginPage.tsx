@@ -1,15 +1,43 @@
+import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
 export default function LoginPage() {
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [errors, setErrors] = useState<{ email?: string; password?: string }>({})
+
+  function validate() {
+    const newErrors: typeof errors = {}
+    if (!email) {
+      newErrors.email = "Email is required"
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      newErrors.email = "Enter a valid email"
+    }
+    if (!password) {
+      newErrors.password = "Password is required"
+    } else if (password.length < 6) {
+      newErrors.password = "Password must be at least 6 characters"
+    }
+    return newErrors
+  }
+
+  function handleSubmit(e: React.FormEvent) {
+    e.preventDefault()
+    const validationErrors = validate()
+    setErrors(validationErrors)
+    if (Object.keys(validationErrors).length === 0) {
+    }
+  }
+
   return (
     <div className="min-h-screen relative flex items-center justify-center p-4">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('/placeholder.svg?height=1080&width=1920')`,
+          backgroundImage: `url('/background_image.png')`,
         }}
       />
       <div className="absolute inset-0 bg-black/60" />
@@ -18,7 +46,7 @@ export default function LoginPage() {
           <CardTitle className="text-3xl font-bold text-white">Welcome Back</CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
-          <form className="space-y-4">
+          <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="space-y-2">
               <Label htmlFor="email" className="text-white/90 font-medium">
                 Email
@@ -29,7 +57,12 @@ export default function LoginPage() {
                 placeholder="Enter your email"
                 className="bg-white/10 border-white/20 text-white placeholder:text-white/60 focus:border-white/40 focus:ring-white/20"
                 required
+                value={email}
+                onChange={e => setEmail(e.target.value)}
               />
+              {errors.email && (
+                <p className="text-red-400 text-sm mt-1">{errors.email}</p>
+              )}
             </div>
 
             <div className="space-y-2">
@@ -42,12 +75,17 @@ export default function LoginPage() {
                 placeholder="Enter your password"
                 className="bg-white/10 border-white/20 text-white placeholder:text-white/60 focus:border-white/40 focus:ring-white/20"
                 required
+                value={password}
+                onChange={e => setPassword(e.target.value)}
               />
+              {errors.password && (
+                <p className="text-red-400 text-sm mt-1">{errors.password}</p>
+              )}
             </div>
 
             <Button
               type="submit"
-              className="w-full bg-white text-black hover:bg-white/90 font-semibold py-2.5 transition-colors"
+              className="w-full bg-red-500 hover:bg-white/90 font-semibold py-2.5 transition-colors text-white"
             >
               Login
             </Button>
