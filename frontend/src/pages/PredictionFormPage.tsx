@@ -24,9 +24,10 @@ export default function PredictionFormPage() {
     },
   ])
   const [prediction, setPrediction] = useState<{
-    meals: number
+    meals: string[]
     confidence: number
     ingredients: { name: string; quantity: string }[]
+    test?: string
   } | null>({
     confidence: 90,
     ingredients: [
@@ -39,7 +40,7 @@ export default function PredictionFormPage() {
       { name: 'test', quantity: '50' },
       { name: 'test', quantity: '50' },
     ],
-    meals: 250,
+    meals: [' meal 1: 250'],
   })
 
   const handleSubmit = async () => {
@@ -49,26 +50,36 @@ export default function PredictionFormPage() {
     }
 
     const dataToSend = {
-      meal: meal.value,
-      startDate: format(range[0].startDate, 'yyyy-MM-dd'),
-      endDate: format(range[0].endDate, 'yyyy-MM-dd'),
+      item_lines: mealOptions.map(meal => meal.value).join(', '),
+      date: format(range[0].startDate, 'yyyy-MM-dd'),
+      query: '',
     }
 
+    console.log('dataToSend', dataToSend)
+
     try {
-      const res = await fetch('http://localhost:5000/api/plan-meal', {
+      const res = await fetch('http://localhost:3001/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(dataToSend),
       })
       const result = await res.json()
-      setPrediction(result)
+      const items = result?.answer.split('\n')
+      console.log('items', items)
+
+      setPrediction({
+        confidence: 90,
+        ingredients: [{ name: 'test', quantity: '50' }],
+        meals: items,
+        test: result?.answer,
+      })
       alert('✅ Data sent successfully!')
     } catch (err) {
       console.error(err)
       setPrediction({
         confidence: 90,
         ingredients: [{ name: 'test', quantity: '50' }],
-        meals: 250,
+        meals: ['meail 1: 250 orders'],
       })
       alert('Error sending data')
     }
@@ -135,7 +146,11 @@ export default function PredictionFormPage() {
                 🍽️ Estimated Meals
               </h3>
               <p className="text-xl font-bold text-indigo-600">
-                {prediction?.meals} meals
+                <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
+                  {prediction?.meals.map(meal => (
+                    <li>{meal}</li>
+                  ))}
+                </ul>
               </p>
             </div>
 
