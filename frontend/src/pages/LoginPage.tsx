@@ -3,12 +3,15 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { useNavigate } from "react-router-dom"
+import { useAuth, type User } from "@/contexts/AuthProvider"
 
 export default function LoginPage() {
+  const navigate = useNavigate()
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [errors, setErrors] = useState<{ email?: string; password?: string }>({})
-
+  const { login } = useAuth();
   function validate() {
     const newErrors: typeof errors = {}
     if (!email) {
@@ -25,13 +28,22 @@ export default function LoginPage() {
   }
 
   function handleSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    const validationErrors = validate()
-    setErrors(validationErrors)
-    if (Object.keys(validationErrors).length === 0) {
-    }
-  }
+    e.preventDefault();
+    const validationErrors = validate();
+    setErrors(validationErrors);
 
+    // Si hay errores, no continúes
+    if (Object.keys(validationErrors).length > 0) return;
+
+    const fakeUser: User = {
+      id: "1",
+      email: "sebasarcose@hotmail.com",
+      password: "sebas123",
+    };
+
+    login(fakeUser);
+    navigate("/predict");
+  }
   return (
     <div className="min-h-screen relative flex items-center justify-center p-4">
       <div
@@ -89,7 +101,16 @@ export default function LoginPage() {
             >
               Login
             </Button>
+            <div className="flex items-center justify-center mt-0 text-white gap-1  ">
+              Don't have an account? <span
+                onClick={() => navigate("/register")}
+                className="underline cursor-pointer"
+              >
+                Register here
+              </span>
+            </div>
           </form>
+
         </CardContent>
       </Card>
     </div>
