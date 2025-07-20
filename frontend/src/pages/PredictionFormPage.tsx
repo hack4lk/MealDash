@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router-dom'
 import { ClipLoader } from 'react-spinners'
 import type { IMeal, IPrediction, IRangeDates } from '@/types/prediction'
 import { fetchPrediction } from '@/services/predictionService'
+import toast from 'react-hot-toast'
 
 const mealOptions = [
   { value: 'chicken_grill', label: 'Chicken Grill' },
@@ -33,7 +34,7 @@ export default function PredictionFormPage() {
   const handleSubmit = async () => {
     if (isLoading) return
     if (!meal || meal.length === 0) {
-      alert('Please select a meal')
+      toast.error('Please select a meal')
       return
     }
 
