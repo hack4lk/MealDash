@@ -76,6 +76,7 @@ MealDash is built as a full-stack application with a clean separation of concern
 
 - **Node.js** (v20 or higher)
 - **npm** or **yarn**
+- **Python** (v3 or higher)
 
 ### Installation & Setup
 
@@ -86,15 +87,23 @@ MealDash is built as a full-stack application with a clean separation of concern
    cd MealDash
    ```
 
+2. **Place the environment variables on .env file**
+  
+  ```
+  OPENAI_API_KEY=YOURKEY
+  PYTHON_PATH=PATH_TO_YOUR_PYTHON_EXEC
+
+  ```
+
 2. **Set up the Backend API**
 
    ```bash
    cd server
    npm install
-   npm start
+   node server/api/server.js
    ```
 
-   Server runs on: `http://localhost:3000`
+   Server runs on: `http://localhost:3001`
 
 3. **Set up the Frontend** (in a new terminal)
    ```bash
@@ -119,29 +128,24 @@ Input:
 {
   "meals": ["pasta", "chicken salad", "vegetable soup"],
   "date": "2025-07-19",
-  "confidence": 0.9
+  "query": ""
 }
 
 Output:
 {
-  "success": true,
-  "data": {
-    "inputMeals": ["pasta", "chicken salad", "vegetable soup"],
-    "date": "2025-07-19",
-    "confidence": 0.9,
-    "recommendations": {
-      "meals": [
-        { "name": "pasta", "quantity": 8, "unit": "servings" },
-        { "name": "chicken salad", "quantity": 6, "unit": "servings" },
-        { "name": "vegetable soup", "quantity": 4, "unit": "servings" },
-        { "name": "garlic bread", "quantity": 5, "unit": "servings" }
-      ],
-      "totalServings": 23,
-      "score": 87.3,
-      "message": "Optimized meal plan for maximum efficiency",
-      "timestamp": "2025-07-19T15:30:45.123Z"
-    }
-  }
+    "predictions": [
+        {
+            "Date": "2025-02-05",
+            "Item": "Animal Fries",
+            "Orders": 5
+        },
+        {
+            "Date": "2025-02-05",
+            "Item": "Angara Paneer Melt",
+            "Orders": 3
+        }
+    ],
+    "confidence_level": 90
 }
 ```
 
@@ -159,16 +163,28 @@ MealDash/
 │   │   ├── App.tsx            # Main React component
 │   │   ├── main.tsx           # Application entry point
 │   │   └── components/        # Reusable UI components
-│   └── public/                # Static assets
+│   ├── public/                # Static assets
+│   └── .env                   # Environment configuration
 │
-└── server/                      # Express.js API server
+└── server/                     # Express.js API server
     ├── README.md               # Backend-specific documentation
     ├── package.json            # Backend dependencies
-    ├── index.js                # Server entry point
+    ├── api/                    # Server entry point
+    ├── data/                   # Data files
+    ├── python/                 # Python scripts
     ├── routes/
-    │   └── api.js             # API route definitions
+    │   └── forecastRoutes.js   # API route definitions
     └── .env                    # Environment configuration
 ```
+
+
+## 📁 Data Set Used
+
+- **Kaggle Data Set**: Used real data kaggle data set for prediction
+
+## 📁 Prediction Algorythm
+
+- **SARIMAX**: Used for prediction calculation using python and attached to a faiss vector db
 
 ## 🔧 Components
 
@@ -194,25 +210,26 @@ MealDash/
   - Complementary meal suggestions
   - Confidence-based recommendations
   - Historical pattern analysis
+- **SARIMAX**: Used for prediction calculation using python and attached to a faiss vector db
+- **OPENAI API**: Used for RAG functionalities
 
 ## 🌐 API Endpoints
 
 | Method | Endpoint       | Description                         |
 | ------ | -------------- | ----------------------------------- |
 | `GET`  | `/`            | Health check and server status      |
-| `GET`  | `/api/`        | API information and documentation   |
-| `GET`  | `/api/predict` | Endpoint documentation and examples |
-| `POST` | `/api/predict` | Generate meal quantity predictions  |
+| `POST`  | `/ask`        | Gets prediction data                |
+| `POST`  | `/forecast`   | Endpoint that generates the forecast|
 
 ### API Request Format
 
 ```bash
-curl -X POST http://localhost:3000/api/predict \
+curl -X POST http://localhost:3001/ask \
   -H "Content-Type: application/json" \
   -d '{
-    "meals": ["dish1", "dish2"],
+    "item_lines": "dish1,dish2",
     "date": "2025-07-19",
-    "confidence": 0.9
+    "query": ""
   }'
 ```
 
@@ -240,7 +257,6 @@ curl -X POST http://localhost:3000/api/predict \
 
 - Support for multiple meal types
 - Date-based planning
-- Configurable confidence levels
 
 ### ✅ **Actionable Output**
 
@@ -258,7 +274,6 @@ curl -X POST http://localhost:3000/api/predict \
 
 ### Phase 2: Advanced Intelligence
 
-- 🧠 Machine learning integration
 - 📅 Multi-day planning capabilities
 - 🔄 Real-time demand adjustments
 
@@ -299,72 +314,3 @@ This project is available under the terms specified in the LICENSE file.
 ---
 
 **MealDash** - _Transforming food service through intelligent meal forecasting_ 🍽️✨
-=======
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
