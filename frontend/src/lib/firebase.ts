@@ -1,20 +1,22 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import { initializeApp } from 'firebase/app'
+import { getAuth } from 'firebase/auth'
 
-// Your web app's Firebase configuration
+const apiKey = import.meta.env.VITE_FIRE_BASE_API_KEY
+const authDomain = import.meta.env.VITE_FIRE_BASE_AUTH_DOMAIN
+const projectId = import.meta.env.VITE_FIRE_BASE_PROJECT_ID
+const storageBucket = import.meta.env.VITE_FIRE_BASE_STORAGE_BUCKET
+const messagingSenderId = import.meta.env.VITE_FIRE_BASE_MESSAGING_SENDER_ID
+const appId = import.meta.env.VITE_FIRE_BASE_APP_ID
+
 const firebaseConfig = {
-    apiKey: "AIzaSyD8PcjdolqMGgG4ujaFe3srQlLOx8k5tP4",
-    authDomain: "mealdash-eaacf.firebaseapp.com",
-    projectId: "mealdash-eaacf",
-    storageBucket: "mealdash-eaacf.firebasestorage.app",
-    messagingSenderId: "933128644032",
-    appId: "1:933128644032:web:0120a5cb9be8101a669425"
-};
+  apiKey,
+  authDomain,
+  projectId,
+  storageBucket,
+  messagingSenderId,
+  appId,
+}
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig)
 const auth = getAuth(app)
 

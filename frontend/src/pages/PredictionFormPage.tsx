@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import Select from 'react-select'
 import { DateRange } from 'react-date-range'
-import { format } from 'date-fns'
 import 'react-date-range/dist/styles.css'
 import 'react-date-range/dist/theme/default.css'
 import { useAuth } from '@/contexts/AuthProvider'
 import { useNavigate } from 'react-router-dom'
 import { ClipLoader } from 'react-spinners'
+import type { IMeal, IPrediction, IRangeDates } from '@/types/prediction'
+import { fetchPrediction } from '@/services/predictionService'
 
 const mealOptions = [
   { value: 'chicken_grill', label: 'Chicken Grill' },
@@ -17,68 +18,35 @@ const mealOptions = [
 
 export default function PredictionFormPage() {
   const navigate = useNavigate()
-  const [isLoading, setIsLoading] = useState(false)
-  const [meal, setMeal] = useState<{ value: string; label: string }[] | null>(
-    null,
-  )
   const { logout } = useAuth()
-  const [range, setRange] = useState([
+  const [isLoading, setIsLoading] = useState(false)
+  const [meal, setMeal] = useState<IMeal[]>([])
+  const [prediction, setPrediction] = useState<IPrediction>()
+  const [range, setRange] = useState<IRangeDates[]>([
     {
       startDate: new Date(),
       endDate: new Date(),
       key: 'selection',
     },
   ])
-  const [prediction, setPrediction] = useState<{
-    meals: string[]
-    confidence: number
-    ingredients: { name: string; quantity: string }[]
-    test?: string
-  } | null>({
-    confidence: 90,
-    ingredients: [
-      { name: 'test', quantity: '50' },
-      { name: 'test', quantity: '50' },
-      { name: 'test', quantity: '50' },
-      { name: 'test', quantity: '50' },
-      { name: 'test', quantity: '50' },
-      { name: 'test', quantity: '50' },
-      { name: 'test', quantity: '50' },
-      { name: 'test', quantity: '50' },
-    ],
-    meals: [' meal 1: 250'],
-  })
 
   const handleSubmit = async () => {
+    if (isLoading) return
     if (!meal) {
       alert('Please select a meal')
       return
     }
 
-    const dataToSend = {
-      item_lines: mealOptions.map(meal => meal.value).join(', '),
-      date: format(range[0].startDate, 'yyyy-MM-dd'),
-      query: '',
-    }
-
-    console.log('dataToSend', dataToSend)
-
     try {
       setIsLoading(true)
-      const res = await fetch('http://localhost:3001/ask', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(dataToSend),
-      })
-      const result = await res.json()
-      const items = result?.answer.split('\n')
+      const resultPrediction = await fetchPrediction(meal, range)
+      const items = resultPrediction?.answer.split('\n')
       console.log('items', items)
 
       setPrediction({
         confidence: 90,
         ingredients: [{ name: 'test', quantity: '50' }],
         meals: items,
-        test: result?.answer,
       })
     } catch (err) {
       console.error(err)
@@ -127,7 +95,7 @@ export default function PredictionFormPage() {
               options={mealOptions}
               isMulti
               value={meal}
-              onChange={setMeal}
+              onChange={newValue => setMeal([...newValue])}
               placeholder="e.g. Chicken Grill"
             />
           </div>
@@ -143,10 +111,11 @@ export default function PredictionFormPage() {
             />
           </div>
           <button
+            disabled={isLoading}
             onClick={handleSubmit}
             className="w-full bg-black text-white font-semibold py-3 rounded hover:bg-neutral-800 transition"
           >
-            Submit
+            {isLoading ? 'Loading...' : 'Submit'}
           </button>
         </div>
 
@@ -184,7 +153,7 @@ export default function PredictionFormPage() {
                 <h3 className="text-lg font-semibold text-gray-700 mb-1">
                   📊 Confidence
                 </h3>
-                <p className="text-xl font-bold text-green-600">
+                <p className="text-xl font-bold text-gray-700">
                   {prediction?.confidence}%
                 </p>
               </div>
@@ -195,7 +164,7 @@ export default function PredictionFormPage() {
                 </h3>
                 <ul
                   className="list-disc list-inside space-y-1 text-gray-600 text-sm"
-                  style={{ maxHeight: '280px', overflowY: 'scroll' }}
+                  style={{ maxHeight: '280px', overflowY: 'auto' }}
                 >
                   {prediction?.ingredients.map((ing, i) => (
                     <li key={i}>
