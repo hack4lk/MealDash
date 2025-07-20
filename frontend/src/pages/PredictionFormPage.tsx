@@ -9,13 +9,7 @@ import { ClipLoader } from 'react-spinners'
 import type { IMeal, IPrediction, IRangeDates } from '@/types/prediction'
 import { fetchPrediction } from '@/services/predictionService'
 import toast from 'react-hot-toast'
-
-const mealOptions = [
-  { value: 'chicken_grill', label: 'Chicken Grill' },
-  { value: 'vegetarian_rice', label: 'Vegetarian Rice' },
-  { value: 'beef_tacos', label: 'Beef Tacos' },
-  { value: 'fish_curry', label: 'Fish Curry' },
-]
+import { MEALS_LIST } from '@/constants/meals'
 
 export default function PredictionFormPage() {
   const navigate = useNavigate()
@@ -41,20 +35,16 @@ export default function PredictionFormPage() {
     try {
       setIsLoading(true)
       const resultPrediction = await fetchPrediction(meal, range)
-      const items = resultPrediction?.answer.split('\n')
-
       setPrediction({
-        confidence: 90,
-        ingredients: [{ name: 'test', quantity: '50' }],
-        meals: items,
+        confidence: resultPrediction.confidence_level,
+        ingredients: [],
+        meals: resultPrediction.predictions.map(
+          (prediction: { Item: string; Orders: number }) =>
+            `${prediction.Item}: ${prediction.Orders}`,
+        ),
       })
     } catch (err) {
       console.error(err)
-      setPrediction({
-        confidence: 90,
-        ingredients: [{ name: 'test', quantity: '50' }],
-        meals: ['Meal 1: 250 orders'],
-      })
     } finally {
       setIsLoading(false)
     }
@@ -97,7 +87,7 @@ export default function PredictionFormPage() {
               Select meal
             </label>
             <Select
-              options={mealOptions}
+              options={MEALS_LIST}
               isMulti
               value={meal}
               onChange={newValue => setMeal([...newValue])}
@@ -169,13 +159,14 @@ export default function PredictionFormPage() {
                 <h3 className="text-lg font-semibold text-white mb-2">
                   🛒 Ingredients Needed
                 </h3>
-                <ul className="list-disc list-inside space-y-1 text-white/90 text-sm">
+                <p className="text-xl font-bold text-white">Coming Soon...</p>
+                {/* <ul className="list-disc list-inside space-y-1 text-white/90 text-sm">
                   {prediction?.ingredients.map((ing, i) => (
                     <li key={i}>
                       {ing.quantity} of {ing.name}
                     </li>
                   ))}
-                </ul>
+                </ul> */}
               </div>
             </>
           )}
