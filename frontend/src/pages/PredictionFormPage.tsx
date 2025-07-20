@@ -39,8 +39,8 @@ export default function PredictionFormPage() {
         confidence: resultPrediction.confidence_level,
         ingredients: [],
         meals: resultPrediction.predictions.map(
-          (prediction: { Item: string; Orders: number }) =>
-            `${prediction.Item}: ${prediction.Orders}`,
+          (prediction: { item: string; orders: number }) =>
+            `${prediction.item}: ${prediction.orders}`,
         ),
       })
     } catch (err) {

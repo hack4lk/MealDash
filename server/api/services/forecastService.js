@@ -38,11 +38,11 @@ exports.askLLM = (queryText, date, item_lines) => {
 
         Please return the prediction in a structured format like this:
 
-        Date | Item | X orders  
-        Date | Item 2 | Y orders  
-        Date | Item 3 | Z orders
+        date | item | X orders  
+        date | item 2 | Y orders  
+        date | item 3 | Z orders
 
-        Also return the level on of confidence of the prediction as a percentage number, and all the response as a json object  ${queryText ? '' : queryText}`;
+        Also return the level on of confidence of the prediction as a percentage number, and all the response as a json object, all lowercase  ${queryText ? '' : queryText}`;
   const safeQuery = query.replace(/"/g, '\"');
   console.log('Asking LLM with query:', safeQuery);
   const cmd = `${pythonPath} python/ask_llm.py "${safeQuery}" "${item_lines}" "${date}"`;

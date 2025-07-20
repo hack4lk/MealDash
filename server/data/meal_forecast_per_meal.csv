@@ -12,7 +12,6 @@ date,meal,num_orders
 2025-02-09,AAC Saucy Fries,1
 2025-02-10,AAC Saucy Fries,1
 2025-02-11,AAC Saucy Fries,1
-2025-02-12,AAC Saucy Fries,1
 2025-02-01,AAC Signature Fries,2
 2025-02-02,AAC Signature Fries,1
 2025-02-03,AAC Signature Fries,1
@@ -26,7 +25,6 @@ date,meal,num_orders
 2025-02-11,AAC Signature Fries,1
 2025-02-12,AAC Signature Fries,1
 2025-02-13,AAC Signature Fries,2
-2025-02-14,AAC Signature Fries,1
 2025-02-01,All About Chicken Pizza,9
 2025-02-02,All About Chicken Pizza,12
 2025-02-03,All About Chicken Pizza,14
@@ -40,7 +38,6 @@ date,meal,num_orders
 2025-02-11,All About Chicken Pizza,12
 2025-02-12,All About Chicken Pizza,6
 2025-02-13,All About Chicken Pizza,8
-2025-02-14,All About Chicken Pizza,10
 2025-02-01,Angara Paneer Melt,3
 2025-02-02,Angara Paneer Melt,5
 2025-02-03,Angara Paneer Melt,4
@@ -54,7 +51,6 @@ date,meal,num_orders
 2025-02-11,Angara Paneer Melt,3
 2025-02-12,Angara Paneer Melt,3
 2025-02-13,Angara Paneer Melt,5
-2025-02-14,Angara Paneer Melt,4
 2025-02-01,Animal Fries,6
 2025-02-02,Animal Fries,5
 2025-02-03,Animal Fries,6
@@ -68,7 +64,6 @@ date,meal,num_orders
 2025-02-11,Animal Fries,3
 2025-02-12,Animal Fries,5
 2025-02-13,Animal Fries,5
-2025-02-14,Animal Fries,6
 2025-01-31,Bacon Pepperoni Melt,3
 2025-02-01,Bacon Pepperoni Melt,3
 2025-02-02,Bacon Pepperoni Melt,3
@@ -82,7 +77,6 @@ date,meal,num_orders
 2025-02-10,Bacon Pepperoni Melt,3
 2025-02-11,Bacon Pepperoni Melt,2
 2025-02-12,Bacon Pepperoni Melt,2
-2025-02-13,Bacon Pepperoni Melt,3
 2025-02-01,Bageecha Pizza,23
 2025-02-02,Bageecha Pizza,13
 2025-02-03,Bageecha Pizza,5
@@ -96,7 +90,6 @@ date,meal,num_orders
 2025-02-11,Bageecha Pizza,15
 2025-02-12,Bageecha Pizza,12
 2025-02-13,Bageecha Pizza,13
-2025-02-14,Bageecha Pizza,15
 2025-02-01,Bellpepper Onion Pizza,1
 2025-02-02,Bellpepper Onion Pizza,1
 2025-02-03,Bellpepper Onion Pizza,2
@@ -110,7 +103,6 @@ date,meal,num_orders
 2025-02-11,Bellpepper Onion Pizza,2
 2025-02-12,Bellpepper Onion Pizza,2
 2025-02-13,Bellpepper Onion Pizza,2
-2025-02-14,Bellpepper Onion Pizza,2
 2025-02-01,Bone in Angara Grilled Chicken,2
 2025-02-02,Bone in Angara Grilled Chicken,2
 2025-02-03,Bone in Angara Grilled Chicken,2
@@ -124,7 +116,6 @@ date,meal,num_orders
 2025-02-11,Bone in Angara Grilled Chicken,4
 2025-02-12,Bone in Angara Grilled Chicken,4
 2025-02-13,Bone in Angara Grilled Chicken,2
-2025-02-14,Bone in Angara Grilled Chicken,4
 2025-02-01,Bone in Jamaican Grilled Chicken,9
 2025-02-02,Bone in Jamaican Grilled Chicken,7
 2025-02-03,Bone in Jamaican Grilled Chicken,10
@@ -138,7 +129,6 @@ date,meal,num_orders
 2025-02-11,Bone in Jamaican Grilled Chicken,5
 2025-02-12,Bone in Jamaican Grilled Chicken,8
 2025-02-13,Bone in Jamaican Grilled Chicken,7
-2025-02-14,Bone in Jamaican Grilled Chicken,12
 2025-02-01,Bone in Kabuli Grilled Chicken,4
 2025-02-02,Bone in Kabuli Grilled Chicken,2
 2025-02-03,Bone in Kabuli Grilled Chicken,4
@@ -152,7 +142,6 @@ date,meal,num_orders
 2025-02-11,Bone in Kabuli Grilled Chicken,3
 2025-02-12,Bone in Kabuli Grilled Chicken,4
 2025-02-13,Bone in Kabuli Grilled Chicken,4
-2025-02-14,Bone in Kabuli Grilled Chicken,3
 2025-02-01,Bone in Peri Peri Grilled Chicken,3
 2025-02-02,Bone in Peri Peri Grilled Chicken,2
 2025-02-03,Bone in Peri Peri Grilled Chicken,2
@@ -166,7 +155,6 @@ date,meal,num_orders
 2025-02-11,Bone in Peri Peri Grilled Chicken,4
 2025-02-12,Bone in Peri Peri Grilled Chicken,2
 2025-02-13,Bone in Peri Peri Grilled Chicken,6
-2025-02-14,Bone in Peri Peri Grilled Chicken,5
 2025-02-01,Bone in Smoky Bbq Grilled Chicken,2
 2025-02-02,Bone in Smoky Bbq Grilled Chicken,6
 2025-02-03,Bone in Smoky Bbq Grilled Chicken,6
@@ -180,7 +168,6 @@ date,meal,num_orders
 2025-02-11,Bone in Smoky Bbq Grilled Chicken,7
 2025-02-12,Bone in Smoky Bbq Grilled Chicken,5
 2025-02-13,Bone in Smoky Bbq Grilled Chicken,5
-2025-02-14,Bone in Smoky Bbq Grilled Chicken,6
 2025-01-27,Carribean Jerk Boneless Grilled Chicken Breast,1
 2025-01-28,Carribean Jerk Boneless Grilled Chicken Breast,1
 2025-01-29,Carribean Jerk Boneless Grilled Chicken Breast,1
@@ -194,7 +181,6 @@ date,meal,num_orders
 2025-02-06,Carribean Jerk Boneless Grilled Chicken Breast,2
 2025-02-07,Carribean Jerk Boneless Grilled Chicken Breast,1
 2025-02-08,Carribean Jerk Boneless Grilled Chicken Breast,2
-2025-02-09,Carribean Jerk Boneless Grilled Chicken Breast,1
 2025-02-01,Cheesy Garlic Bread,6
 2025-02-02,Cheesy Garlic Bread,9
 2025-02-03,Cheesy Garlic Bread,8
@@ -208,7 +194,6 @@ date,meal,num_orders
 2025-02-11,Cheesy Garlic Bread,4
 2025-02-12,Cheesy Garlic Bread,7
 2025-02-13,Cheesy Garlic Bread,6
-2025-02-14,Cheesy Garlic Bread,5
 2025-01-30,Chicken Pepperoni Pizza,2
 2025-01-31,Chicken Pepperoni Pizza,1
 2025-02-01,Chicken Pepperoni Pizza,1
@@ -222,7 +207,6 @@ date,meal,num_orders
 2025-02-09,Chicken Pepperoni Pizza,2
 2025-02-10,Chicken Pepperoni Pizza,2
 2025-02-11,Chicken Pepperoni Pizza,3
-2025-02-12,Chicken Pepperoni Pizza,2
 2025-02-01,Chilli Cheese Garlic Bread,13
 2025-02-02,Chilli Cheese Garlic Bread,8
 2025-02-03,Chilli Cheese Garlic Bread,5
@@ -236,7 +220,6 @@ date,meal,num_orders
 2025-02-11,Chilli Cheese Garlic Bread,8
 2025-02-12,Chilli Cheese Garlic Bread,7
 2025-02-13,Chilli Cheese Garlic Bread,6
-2025-02-14,Chilli Cheese Garlic Bread,7
 2025-01-27,Desi Chicken Pepperoni Pizza,1
 2025-01-28,Desi Chicken Pepperoni Pizza,2
 2025-01-29,Desi Chicken Pepperoni Pizza,2
@@ -250,7 +233,6 @@ date,meal,num_orders
 2025-02-06,Desi Chicken Pepperoni Pizza,1
 2025-02-07,Desi Chicken Pepperoni Pizza,1
 2025-02-08,Desi Chicken Pepperoni Pizza,2
-2025-02-09,Desi Chicken Pepperoni Pizza,1
 2025-02-01,Desi Pepperoni Pizza,3
 2025-02-02,Desi Pepperoni Pizza,1
 2025-02-03,Desi Pepperoni Pizza,2
@@ -264,7 +246,6 @@ date,meal,num_orders
 2025-02-11,Desi Pepperoni Pizza,2
 2025-02-12,Desi Pepperoni Pizza,3
 2025-02-13,Desi Pepperoni Pizza,1
-2025-02-14,Desi Pepperoni Pizza,1
 2025-02-01,Fried Chicken Angara Tender,2
 2025-02-02,Fried Chicken Angara Tender,1
 2025-02-03,Fried Chicken Angara Tender,2
@@ -278,7 +259,6 @@ date,meal,num_orders
 2025-02-11,Fried Chicken Angara Tender,2
 2025-02-12,Fried Chicken Angara Tender,4
 2025-02-13,Fried Chicken Angara Tender,2
-2025-02-14,Fried Chicken Angara Tender,3
 2025-02-01,Fried Chicken Classic Tender,3
 2025-02-02,Fried Chicken Classic Tender,4
 2025-02-03,Fried Chicken Classic Tender,2
@@ -292,7 +272,6 @@ date,meal,num_orders
 2025-02-11,Fried Chicken Classic Tender,4
 2025-02-12,Fried Chicken Classic Tender,3
 2025-02-13,Fried Chicken Classic Tender,3
-2025-02-14,Fried Chicken Classic Tender,2
 2025-02-01,Fried Chicken Ghostbuster Tender,2
 2025-02-02,Fried Chicken Ghostbuster Tender,2
 2025-02-03,Fried Chicken Ghostbuster Tender,2
@@ -306,7 +285,6 @@ date,meal,num_orders
 2025-02-11,Fried Chicken Ghostbuster Tender,2
 2025-02-12,Fried Chicken Ghostbuster Tender,1
 2025-02-13,Fried Chicken Ghostbuster Tender,2
-2025-02-14,Fried Chicken Ghostbuster Tender,2
 2025-02-01,Fried Chicken Peri Peri Tender,4
 2025-02-02,Fried Chicken Peri Peri Tender,5
 2025-02-03,Fried Chicken Peri Peri Tender,3
@@ -320,7 +298,6 @@ date,meal,num_orders
 2025-02-11,Fried Chicken Peri Peri Tender,3
 2025-02-12,Fried Chicken Peri Peri Tender,2
 2025-02-13,Fried Chicken Peri Peri Tender,4
-2025-02-14,Fried Chicken Peri Peri Tender,3
 2025-01-23,Fried Chicken Peri Peri Tenders + Peri Peri Fries,1
 2025-01-24,Fried Chicken Peri Peri Tenders + Peri Peri Fries,0
 2025-01-25,Fried Chicken Peri Peri Tenders + Peri Peri Fries,1
@@ -334,7 +311,6 @@ date,meal,num_orders
 2025-02-02,Fried Chicken Peri Peri Tenders + Peri Peri Fries,0
 2025-02-03,Fried Chicken Peri Peri Tenders + Peri Peri Fries,0
 2025-02-04,Fried Chicken Peri Peri Tenders + Peri Peri Fries,1
-2025-02-05,Fried Chicken Peri Peri Tenders + Peri Peri Fries,0
 2024-11-30,Fried Chicken Strips,2
 2024-12-01,Fried Chicken Strips,4
 2024-12-02,Fried Chicken Strips,8
@@ -348,7 +324,6 @@ date,meal,num_orders
 2024-12-10,Fried Chicken Strips,3
 2024-12-11,Fried Chicken Strips,2
 2024-12-12,Fried Chicken Strips,4
-2024-12-13,Fried Chicken Strips,3
 2025-01-31,Garlic Aioli,2
 2025-02-01,Garlic Aioli,2
 2025-02-02,Garlic Aioli,2
@@ -362,7 +337,6 @@ date,meal,num_orders
 2025-02-10,Garlic Aioli,2
 2025-02-11,Garlic Aioli,2
 2025-02-12,Garlic Aioli,2
-2025-02-13,Garlic Aioli,2
 2025-02-01,Grilled Chicken Angara Tender,1
 2025-02-02,Grilled Chicken Angara Tender,1
 2025-02-03,Grilled Chicken Angara Tender,2
@@ -376,7 +350,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Angara Tender,2
 2025-02-12,Grilled Chicken Angara Tender,2
 2025-02-13,Grilled Chicken Angara Tender,2
-2025-02-14,Grilled Chicken Angara Tender,3
 2025-02-01,Grilled Chicken Jamaican Tender,3
 2025-02-02,Grilled Chicken Jamaican Tender,3
 2025-02-03,Grilled Chicken Jamaican Tender,3
@@ -390,7 +363,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Jamaican Tender,4
 2025-02-12,Grilled Chicken Jamaican Tender,4
 2025-02-13,Grilled Chicken Jamaican Tender,3
-2025-02-14,Grilled Chicken Jamaican Tender,4
 2025-02-01,Grilled Chicken Peri Peri Tangdi,1
 2025-02-02,Grilled Chicken Peri Peri Tangdi,1
 2025-02-03,Grilled Chicken Peri Peri Tangdi,1
@@ -404,7 +376,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Peri Peri Tangdi,1
 2025-02-12,Grilled Chicken Peri Peri Tangdi,1
 2025-02-13,Grilled Chicken Peri Peri Tangdi,2
-2025-02-14,Grilled Chicken Peri Peri Tangdi,2
 2025-02-01,Grilled Chicken Peri Peri Tender,2
 2025-02-02,Grilled Chicken Peri Peri Tender,3
 2025-02-03,Grilled Chicken Peri Peri Tender,2
@@ -418,7 +389,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Peri Peri Tender,3
 2025-02-12,Grilled Chicken Peri Peri Tender,3
 2025-02-13,Grilled Chicken Peri Peri Tender,2
-2025-02-14,Grilled Chicken Peri Peri Tender,3
 2025-02-01,Grilled Chicken Smoky BBQ Tangdi,1
 2025-02-02,Grilled Chicken Smoky BBQ Tangdi,1
 2025-02-03,Grilled Chicken Smoky BBQ Tangdi,1
@@ -432,7 +402,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Smoky BBQ Tangdi,2
 2025-02-12,Grilled Chicken Smoky BBQ Tangdi,1
 2025-02-13,Grilled Chicken Smoky BBQ Tangdi,2
-2025-02-14,Grilled Chicken Smoky BBQ Tangdi,2
 2025-02-01,Grilled Chicken Smoky BBQ Tender,3
 2025-02-02,Grilled Chicken Smoky BBQ Tender,2
 2025-02-03,Grilled Chicken Smoky BBQ Tender,3
@@ -446,7 +415,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Smoky BBQ Tender,4
 2025-02-12,Grilled Chicken Smoky BBQ Tender,3
 2025-02-13,Grilled Chicken Smoky BBQ Tender,2
-2025-02-14,Grilled Chicken Smoky BBQ Tender,2
 2024-11-29,Grilled Tangdis,2
 2024-11-30,Grilled Tangdis,3
 2024-12-01,Grilled Tangdis,3
@@ -460,7 +428,6 @@ date,meal,num_orders
 2024-12-09,Grilled Tangdis,3
 2024-12-10,Grilled Tangdis,2
 2024-12-11,Grilled Tangdis,4
-2024-12-12,Grilled Tangdis,3
 2025-02-01,Herbed Potato,6
 2025-02-02,Herbed Potato,4
 2025-02-03,Herbed Potato,4
@@ -474,7 +441,6 @@ date,meal,num_orders
 2025-02-11,Herbed Potato,5
 2025-02-12,Herbed Potato,6
 2025-02-13,Herbed Potato,4
-2025-02-14,Herbed Potato,5
 2025-01-27,Iced Green Tea - Mojito,1
 2025-01-28,Iced Green Tea - Mojito,1
 2025-01-29,Iced Green Tea - Mojito,1
@@ -488,7 +454,6 @@ date,meal,num_orders
 2025-02-06,Iced Green Tea - Mojito,1
 2025-02-07,Iced Green Tea - Mojito,2
 2025-02-08,Iced Green Tea - Mojito,2
-2025-02-09,Iced Green Tea - Mojito,1
 2025-02-01,Indian Masala Fries,1
 2025-02-02,Indian Masala Fries,1
 2025-02-03,Indian Masala Fries,1
@@ -502,7 +467,6 @@ date,meal,num_orders
 2025-02-11,Indian Masala Fries,1
 2025-02-12,Indian Masala Fries,1
 2025-02-13,Indian Masala Fries,1
-2025-02-14,Indian Masala Fries,1
 2024-11-27,Indian Pico De-Gallo,2
 2024-11-28,Indian Pico De-Gallo,1
 2024-11-29,Indian Pico De-Gallo,1
@@ -516,7 +480,6 @@ date,meal,num_orders
 2024-12-07,Indian Pico De-Gallo,2
 2024-12-08,Indian Pico De-Gallo,2
 2024-12-09,Indian Pico De-Gallo,1
-2024-12-10,Indian Pico De-Gallo,1
 2025-02-01,Jamaican Chicken Melt,11
 2025-02-02,Jamaican Chicken Melt,9
 2025-02-03,Jamaican Chicken Melt,4
@@ -530,7 +493,6 @@ date,meal,num_orders
 2025-02-11,Jamaican Chicken Melt,6
 2025-02-12,Jamaican Chicken Melt,7
 2025-02-13,Jamaican Chicken Melt,5
-2025-02-14,Jamaican Chicken Melt,5
 2025-02-01,Just Pepperoni Pide,3
 2025-02-02,Just Pepperoni Pide,2
 2025-02-03,Just Pepperoni Pide,4
@@ -544,7 +506,6 @@ date,meal,num_orders
 2025-02-11,Just Pepperoni Pide,3
 2025-02-12,Just Pepperoni Pide,2
 2025-02-13,Just Pepperoni Pide,4
-2025-02-14,Just Pepperoni Pide,4
 2025-02-01,Just Pepperoni Pizza,2
 2025-02-02,Just Pepperoni Pizza,3
 2025-02-03,Just Pepperoni Pizza,3
@@ -558,7 +519,6 @@ date,meal,num_orders
 2025-02-11,Just Pepperoni Pizza,4
 2025-02-12,Just Pepperoni Pizza,5
 2025-02-13,Just Pepperoni Pizza,3
-2025-02-14,Just Pepperoni Pizza,3
 2025-02-01,Makhani Paneer Pizza,12
 2025-02-02,Makhani Paneer Pizza,7
 2025-02-03,Makhani Paneer Pizza,4
@@ -572,7 +532,6 @@ date,meal,num_orders
 2025-02-11,Makhani Paneer Pizza,9
 2025-02-12,Makhani Paneer Pizza,8
 2025-02-13,Makhani Paneer Pizza,9
-2025-02-14,Makhani Paneer Pizza,9
 2025-02-01,Malai Gud Pide,2
 2025-02-02,Malai Gud Pide,3
 2025-02-03,Malai Gud Pide,3
@@ -586,7 +545,6 @@ date,meal,num_orders
 2025-02-11,Malai Gud Pide,2
 2025-02-12,Malai Gud Pide,2
 2025-02-13,Malai Gud Pide,2
-2025-02-14,Malai Gud Pide,2
 2025-02-01,Margherita Pizza,12
 2025-02-02,Margherita Pizza,7
 2025-02-03,Margherita Pizza,4
@@ -600,7 +558,6 @@ date,meal,num_orders
 2025-02-11,Margherita Pizza,8
 2025-02-12,Margherita Pizza,7
 2025-02-13,Margherita Pizza,7
-2025-02-14,Margherita Pizza,8
 2024-12-02,Masala Omelette Pide,1
 2024-12-03,Masala Omelette Pide,1
 2024-12-04,Masala Omelette Pide,1
@@ -614,7 +571,6 @@ date,meal,num_orders
 2024-12-12,Masala Omelette Pide,2
 2024-12-13,Masala Omelette Pide,1
 2024-12-14,Masala Omelette Pide,1
-2024-12-15,Masala Omelette Pide,1
 2025-02-01,Masala Paneer Pide,5
 2025-02-02,Masala Paneer Pide,4
 2025-02-03,Masala Paneer Pide,2
@@ -628,7 +584,6 @@ date,meal,num_orders
 2025-02-11,Masala Paneer Pide,2
 2025-02-12,Masala Paneer Pide,2
 2025-02-13,Masala Paneer Pide,3
-2025-02-14,Masala Paneer Pide,2
 2025-02-01,Masala Potato Pide,2
 2025-02-02,Masala Potato Pide,3
 2025-02-03,Masala Potato Pide,2
@@ -642,7 +597,6 @@ date,meal,num_orders
 2025-02-11,Masala Potato Pide,2
 2025-02-12,Masala Potato Pide,3
 2025-02-13,Masala Potato Pide,2
-2025-02-14,Masala Potato Pide,2
 2025-02-01,Murgh Amritsari Garlic Bread,5
 2025-02-02,Murgh Amritsari Garlic Bread,3
 2025-02-03,Murgh Amritsari Garlic Bread,3
@@ -656,7 +610,6 @@ date,meal,num_orders
 2025-02-11,Murgh Amritsari Garlic Bread,3
 2025-02-12,Murgh Amritsari Garlic Bread,4
 2025-02-13,Murgh Amritsari Garlic Bread,3
-2025-02-14,Murgh Amritsari Garlic Bread,3
 2025-02-01,Murgh Amritsari Seekh Melt,6
 2025-02-02,Murgh Amritsari Seekh Melt,5
 2025-02-03,Murgh Amritsari Seekh Melt,3
@@ -670,7 +623,6 @@ date,meal,num_orders
 2025-02-11,Murgh Amritsari Seekh Melt,3
 2025-02-12,Murgh Amritsari Seekh Melt,3
 2025-02-13,Murgh Amritsari Seekh Melt,3
-2025-02-14,Murgh Amritsari Seekh Melt,4
 2025-01-31,Murgh Amritsari Seekh Pide,2
 2025-02-01,Murgh Amritsari Seekh Pide,3
 2025-02-02,Murgh Amritsari Seekh Pide,1
@@ -684,7 +636,6 @@ date,meal,num_orders
 2025-02-10,Murgh Amritsari Seekh Pide,5
 2025-02-11,Murgh Amritsari Seekh Pide,3
 2025-02-12,Murgh Amritsari Seekh Pide,3
-2025-02-13,Murgh Amritsari Seekh Pide,2
 2025-02-01,Murgh Amritsari Seekh Pizza,9
 2025-02-02,Murgh Amritsari Seekh Pizza,9
 2025-02-03,Murgh Amritsari Seekh Pizza,7
@@ -698,7 +649,6 @@ date,meal,num_orders
 2025-02-11,Murgh Amritsari Seekh Pizza,7
 2025-02-12,Murgh Amritsari Seekh Pizza,9
 2025-02-13,Murgh Amritsari Seekh Pizza,8
-2025-02-14,Murgh Amritsari Seekh Pizza,7
 2025-02-01,Mushroom Mozzarella Melt,4
 2025-02-02,Mushroom Mozzarella Melt,3
 2025-02-03,Mushroom Mozzarella Melt,3
@@ -712,7 +662,6 @@ date,meal,num_orders
 2025-02-11,Mushroom Mozzarella Melt,2
 2025-02-12,Mushroom Mozzarella Melt,3
 2025-02-13,Mushroom Mozzarella Melt,3
-2025-02-14,Mushroom Mozzarella Melt,4
 2025-02-01,Mushroom Pizza,5
 2025-02-02,Mushroom Pizza,2
 2025-02-03,Mushroom Pizza,3
@@ -726,7 +675,6 @@ date,meal,num_orders
 2025-02-11,Mushroom Pizza,2
 2025-02-12,Mushroom Pizza,2
 2025-02-13,Mushroom Pizza,5
-2025-02-14,Mushroom Pizza,2
 2025-02-01,Mutton Seekh Pide,3
 2025-02-02,Mutton Seekh Pide,3
 2025-02-03,Mutton Seekh Pide,2
@@ -740,7 +688,6 @@ date,meal,num_orders
 2025-02-11,Mutton Seekh Pide,3
 2025-02-12,Mutton Seekh Pide,2
 2025-02-13,Mutton Seekh Pide,2
-2025-02-14,Mutton Seekh Pide,1
 2025-01-29,Mutton Seekh Pizza,0
 2025-01-30,Mutton Seekh Pizza,0
 2025-01-31,Mutton Seekh Pizza,0
@@ -754,7 +701,6 @@ date,meal,num_orders
 2025-02-08,Mutton Seekh Pizza,1
 2025-02-09,Mutton Seekh Pizza,1
 2025-02-10,Mutton Seekh Pizza,0
-2025-02-11,Mutton Seekh Pizza,1
 2025-01-30,OG Cheese Pide,1
 2025-01-31,OG Cheese Pide,2
 2025-02-01,OG Cheese Pide,3
@@ -768,7 +714,6 @@ date,meal,num_orders
 2025-02-09,OG Cheese Pide,2
 2025-02-10,OG Cheese Pide,1
 2025-02-11,OG Cheese Pide,1
-2025-02-12,OG Cheese Pide,1
 2025-01-31,Peanut Butter Chocolate Pide,1
 2025-02-01,Peanut Butter Chocolate Pide,1
 2025-02-02,Peanut Butter Chocolate Pide,2
@@ -782,7 +727,6 @@ date,meal,num_orders
 2025-02-10,Peanut Butter Chocolate Pide,2
 2025-02-11,Peanut Butter Chocolate Pide,1
 2025-02-12,Peanut Butter Chocolate Pide,1
-2025-02-13,Peanut Butter Chocolate Pide,1
 2025-02-01,Peri Peri Fries,3
 2025-02-02,Peri Peri Fries,3
 2025-02-03,Peri Peri Fries,2
@@ -796,7 +740,6 @@ date,meal,num_orders
 2025-02-11,Peri Peri Fries,2
 2025-02-12,Peri Peri Fries,2
 2025-02-13,Peri Peri Fries,3
-2025-02-14,Peri Peri Fries,2
 2025-02-01,Peri Peri Grilled Chicken Pizza,1
 2025-02-02,Peri Peri Grilled Chicken Pizza,3
 2025-02-03,Peri Peri Grilled Chicken Pizza,3
@@ -810,7 +753,6 @@ date,meal,num_orders
 2025-02-11,Peri Peri Grilled Chicken Pizza,3
 2025-02-12,Peri Peri Grilled Chicken Pizza,2
 2025-02-13,Peri Peri Grilled Chicken Pizza,2
-2025-02-14,Peri Peri Grilled Chicken Pizza,4
 2025-02-01,Peri Peri Paneer Melt,2
 2025-02-02,Peri Peri Paneer Melt,1
 2025-02-03,Peri Peri Paneer Melt,2
@@ -824,7 +766,6 @@ date,meal,num_orders
 2025-02-11,Peri Peri Paneer Melt,2
 2025-02-12,Peri Peri Paneer Melt,4
 2025-02-13,Peri Peri Paneer Melt,1
-2025-02-14,Peri Peri Paneer Melt,3
 2025-02-01,Peri Peri Paneer Pizza,4
 2025-02-02,Peri Peri Paneer Pizza,4
 2025-02-03,Peri Peri Paneer Pizza,4
@@ -838,7 +779,6 @@ date,meal,num_orders
 2025-02-11,Peri Peri Paneer Pizza,5
 2025-02-12,Peri Peri Paneer Pizza,3
 2025-02-13,Peri Peri Paneer Pizza,4
-2025-02-14,Peri Peri Paneer Pizza,4
 2025-01-31,Spinach Sumac Pide,3
 2025-02-01,Spinach Sumac Pide,4
 2025-02-02,Spinach Sumac Pide,3
@@ -852,7 +792,6 @@ date,meal,num_orders
 2025-02-10,Spinach Sumac Pide,3
 2025-02-11,Spinach Sumac Pide,3
 2025-02-12,Spinach Sumac Pide,4
-2025-02-13,Spinach Sumac Pide,3
 2025-02-01,Tipsy Tiger Ginger Ale,1
 2025-02-02,Tipsy Tiger Ginger Ale,1
 2025-02-03,Tipsy Tiger Ginger Ale,2
@@ -866,7 +805,6 @@ date,meal,num_orders
 2025-02-11,Tipsy Tiger Ginger Ale,1
 2025-02-12,Tipsy Tiger Ginger Ale,1
 2025-02-13,Tipsy Tiger Ginger Ale,1
-2025-02-14,Tipsy Tiger Ginger Ale,1
 2025-02-01,Tripple Cheese Pizza,9
 2025-02-02,Tripple Cheese Pizza,9
 2025-02-03,Tripple Cheese Pizza,9
@@ -880,7 +818,6 @@ date,meal,num_orders
 2025-02-11,Tripple Cheese Pizza,10
 2025-02-12,Tripple Cheese Pizza,9
 2025-02-13,Tripple Cheese Pizza,9
-2025-02-14,Tripple Cheese Pizza,10
 2025-02-01,Angara Rice,2
 2025-02-02,Angara Rice,2
 2025-02-03,Angara Rice,1
@@ -894,7 +831,6 @@ date,meal,num_orders
 2025-02-11,Angara Rice,1
 2025-02-12,Angara Rice,1
 2025-02-13,Angara Rice,2
-2025-02-14,Angara Rice,1
 2025-02-01,Grilled Chicken Jamaican Tangdi,2
 2025-02-02,Grilled Chicken Jamaican Tangdi,2
 2025-02-03,Grilled Chicken Jamaican Tangdi,1
@@ -908,7 +844,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Jamaican Tangdi,2
 2025-02-12,Grilled Chicken Jamaican Tangdi,1
 2025-02-13,Grilled Chicken Jamaican Tangdi,1
-2025-02-14,Grilled Chicken Jamaican Tangdi,2
 2024-11-29,Harisa Mayo,2
 2024-11-30,Harisa Mayo,1
 2024-12-01,Harisa Mayo,1
@@ -922,7 +857,6 @@ date,meal,num_orders
 2024-12-09,Harisa Mayo,2
 2024-12-10,Harisa Mayo,2
 2024-12-11,Harisa Mayo,2
-2024-12-12,Harisa Mayo,1
 2024-11-20,Onion Bombs,2
 2024-11-21,Onion Bombs,2
 2024-11-22,Onion Bombs,2
@@ -936,7 +870,6 @@ date,meal,num_orders
 2024-11-30,Onion Bombs,3
 2024-12-01,Onion Bombs,2
 2024-12-02,Onion Bombs,3
-2024-12-03,Onion Bombs,4
 2025-02-01,Salted Fries,3
 2025-02-02,Salted Fries,2
 2025-02-03,Salted Fries,4
@@ -950,7 +883,6 @@ date,meal,num_orders
 2025-02-11,Salted Fries,3
 2025-02-12,Salted Fries,2
 2025-02-13,Salted Fries,3
-2025-02-14,Salted Fries,3
 2024-11-21,AAC Special Slaw,2
 2024-11-22,AAC Special Slaw,2
 2024-11-23,AAC Special Slaw,2
@@ -964,7 +896,6 @@ date,meal,num_orders
 2024-12-01,AAC Special Slaw,1
 2024-12-02,AAC Special Slaw,1
 2024-12-03,AAC Special Slaw,2
-2024-12-04,AAC Special Slaw,2
 2024-11-20,Angara Aloo Tuk Tuki,1
 2024-11-21,Angara Aloo Tuk Tuki,1
 2024-11-22,Angara Aloo Tuk Tuki,1
@@ -978,7 +909,6 @@ date,meal,num_orders
 2024-11-30,Angara Aloo Tuk Tuki,1
 2024-12-01,Angara Aloo Tuk Tuki,1
 2024-12-02,Angara Aloo Tuk Tuki,1
-2024-12-03,Angara Aloo Tuk Tuki,1
 2025-01-26,Cafreal Sauce,3
 2025-01-27,Cafreal Sauce,2
 2025-01-28,Cafreal Sauce,0
@@ -992,7 +922,6 @@ date,meal,num_orders
 2025-02-05,Cafreal Sauce,0
 2025-02-06,Cafreal Sauce,0
 2025-02-07,Cafreal Sauce,0
-2025-02-08,Cafreal Sauce,0
 2025-01-26,Fried Chicken Classic Tenders + AAC Signature Fries,3
 2025-01-27,Fried Chicken Classic Tenders + AAC Signature Fries,1
 2025-01-28,Fried Chicken Classic Tenders + AAC Signature Fries,4
@@ -1006,7 +935,6 @@ date,meal,num_orders
 2025-02-05,Fried Chicken Classic Tenders + AAC Signature Fries,1
 2025-02-06,Fried Chicken Classic Tenders + AAC Signature Fries,1
 2025-02-07,Fried Chicken Classic Tenders + AAC Signature Fries,1
-2025-02-08,Fried Chicken Classic Tenders + AAC Signature Fries,1
 2025-02-01,Grilled Chicken Angara Tangdi,1
 2025-02-02,Grilled Chicken Angara Tangdi,2
 2025-02-03,Grilled Chicken Angara Tangdi,2
@@ -1020,7 +948,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Angara Tangdi,1
 2025-02-12,Grilled Chicken Angara Tangdi,1
 2025-02-13,Grilled Chicken Angara Tangdi,2
-2025-02-14,Grilled Chicken Angara Tangdi,2
 2025-02-01,Grilled Chicken Ghostbuster Tangdi,0
 2025-02-02,Grilled Chicken Ghostbuster Tangdi,1
 2025-02-03,Grilled Chicken Ghostbuster Tangdi,0
@@ -1034,7 +961,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Ghostbuster Tangdi,1
 2025-02-12,Grilled Chicken Ghostbuster Tangdi,1
 2025-02-13,Grilled Chicken Ghostbuster Tangdi,1
-2025-02-14,Grilled Chicken Ghostbuster Tangdi,4
 2025-02-01,Pepperoni Garlic Bread,1
 2025-02-02,Pepperoni Garlic Bread,1
 2025-02-03,Pepperoni Garlic Bread,1
@@ -1048,7 +974,6 @@ date,meal,num_orders
 2025-02-11,Pepperoni Garlic Bread,1
 2025-02-12,Pepperoni Garlic Bread,2
 2025-02-13,Pepperoni Garlic Bread,1
-2025-02-14,Pepperoni Garlic Bread,1
 2025-02-01,Peri Peri Chicken Melt,3
 2025-02-02,Peri Peri Chicken Melt,2
 2025-02-03,Peri Peri Chicken Melt,3
@@ -1062,7 +987,6 @@ date,meal,num_orders
 2025-02-11,Peri Peri Chicken Melt,4
 2025-02-12,Peri Peri Chicken Melt,2
 2025-02-13,Peri Peri Chicken Melt,4
-2025-02-14,Peri Peri Chicken Melt,2
 2025-02-01,Angara Grilled Paneer (8 pcs),2
 2025-02-02,Angara Grilled Paneer (8 pcs),2
 2025-02-03,Angara Grilled Paneer (8 pcs),2
@@ -1076,7 +1000,6 @@ date,meal,num_orders
 2025-02-11,Angara Grilled Paneer (8 pcs),3
 2025-02-12,Angara Grilled Paneer (8 pcs),3
 2025-02-13,Angara Grilled Paneer (8 pcs),2
-2025-02-14,Angara Grilled Paneer (8 pcs),3
 2025-01-31,Bone in Jamaican Grilled Chicken Quarter + Angara Rice,2
 2025-02-01,Bone in Jamaican Grilled Chicken Quarter + Angara Rice,3
 2025-02-02,Bone in Jamaican Grilled Chicken Quarter + Angara Rice,1
@@ -1090,7 +1013,6 @@ date,meal,num_orders
 2025-02-10,Bone in Jamaican Grilled Chicken Quarter + Angara Rice,2
 2025-02-11,Bone in Jamaican Grilled Chicken Quarter + Angara Rice,2
 2025-02-12,Bone in Jamaican Grilled Chicken Quarter + Angara Rice,1
-2025-02-13,Bone in Jamaican Grilled Chicken Quarter + Angara Rice,1
 2025-02-01,Cafreal dip,1
 2025-02-02,Cafreal dip,1
 2025-02-03,Cafreal dip,1
@@ -1104,7 +1026,6 @@ date,meal,num_orders
 2025-02-11,Cafreal dip,1
 2025-02-12,Cafreal dip,1
 2025-02-13,Cafreal dip,1
-2025-02-14,Cafreal dip,1
 2025-02-01,Fried Chicken Kabuli Tender,1
 2025-02-02,Fried Chicken Kabuli Tender,2
 2025-02-03,Fried Chicken Kabuli Tender,2
@@ -1118,7 +1039,6 @@ date,meal,num_orders
 2025-02-11,Fried Chicken Kabuli Tender,2
 2025-02-12,Fried Chicken Kabuli Tender,1
 2025-02-13,Fried Chicken Kabuli Tender,1
-2025-02-14,Fried Chicken Kabuli Tender,2
 2025-01-21,Grilled Chicken Tangdi Jamaican + Salted Krispers,5
 2025-01-22,Grilled Chicken Tangdi Jamaican + Salted Krispers,1
 2025-01-23,Grilled Chicken Tangdi Jamaican + Salted Krispers,3
@@ -1132,7 +1052,6 @@ date,meal,num_orders
 2025-01-31,Grilled Chicken Tangdi Jamaican + Salted Krispers,1
 2025-02-01,Grilled Chicken Tangdi Jamaican + Salted Krispers,1
 2025-02-02,Grilled Chicken Tangdi Jamaican + Salted Krispers,2
-2025-02-03,Grilled Chicken Tangdi Jamaican + Salted Krispers,3
 2024-11-20,India Dynamite sauce,1
 2024-11-21,India Dynamite sauce,0
 2024-11-22,India Dynamite sauce,1
@@ -1146,7 +1065,6 @@ date,meal,num_orders
 2024-11-30,India Dynamite sauce,4
 2024-12-01,India Dynamite sauce,1
 2024-12-02,India Dynamite sauce,1
-2024-12-03,India Dynamite sauce,1
 2025-02-01,Kabuli Grilled Paneer (8 pcs),1
 2025-02-02,Kabuli Grilled Paneer (8 pcs),1
 2025-02-03,Kabuli Grilled Paneer (8 pcs),1
@@ -1160,7 +1078,6 @@ date,meal,num_orders
 2025-02-11,Kabuli Grilled Paneer (8 pcs),1
 2025-02-12,Kabuli Grilled Paneer (8 pcs),1
 2025-02-13,Kabuli Grilled Paneer (8 pcs),1
-2025-02-14,Kabuli Grilled Paneer (8 pcs),1
 2025-02-01,Jamaican Sauce,1
 2025-02-02,Jamaican Sauce,1
 2025-02-03,Jamaican Sauce,1
@@ -1174,7 +1091,6 @@ date,meal,num_orders
 2025-02-11,Jamaican Sauce,1
 2025-02-12,Jamaican Sauce,1
 2025-02-13,Jamaican Sauce,1
-2025-02-14,Jamaican Sauce,1
 2025-01-26,Angara Boneless Grilled Chicken Breast,1
 2025-01-27,Angara Boneless Grilled Chicken Breast,1
 2025-01-28,Angara Boneless Grilled Chicken Breast,1
@@ -1188,7 +1104,6 @@ date,meal,num_orders
 2025-02-05,Angara Boneless Grilled Chicken Breast,2
 2025-02-06,Angara Boneless Grilled Chicken Breast,1
 2025-02-07,Angara Boneless Grilled Chicken Breast,1
-2025-02-08,Angara Boneless Grilled Chicken Breast,1
 2025-01-21,Grilled Chicken Angara Tenders + Salted Fries,2
 2025-01-22,Grilled Chicken Angara Tenders + Salted Fries,2
 2025-01-23,Grilled Chicken Angara Tenders + Salted Fries,2
@@ -1202,7 +1117,6 @@ date,meal,num_orders
 2025-01-31,Grilled Chicken Angara Tenders + Salted Fries,2
 2025-02-01,Grilled Chicken Angara Tenders + Salted Fries,2
 2025-02-02,Grilled Chicken Angara Tenders + Salted Fries,2
-2025-02-03,Grilled Chicken Angara Tenders + Salted Fries,3
 2025-02-01,Tipsy Tiger Fresh Lime Soda,2
 2025-02-02,Tipsy Tiger Fresh Lime Soda,2
 2025-02-03,Tipsy Tiger Fresh Lime Soda,2
@@ -1216,7 +1130,6 @@ date,meal,num_orders
 2025-02-11,Tipsy Tiger Fresh Lime Soda,2
 2025-02-12,Tipsy Tiger Fresh Lime Soda,2
 2025-02-13,Tipsy Tiger Fresh Lime Soda,2
-2025-02-14,Tipsy Tiger Fresh Lime Soda,1
 2025-02-01,GhostBuster Sauce,1
 2025-02-02,GhostBuster Sauce,1
 2025-02-03,GhostBuster Sauce,1
@@ -1230,7 +1143,6 @@ date,meal,num_orders
 2025-02-11,GhostBuster Sauce,1
 2025-02-12,GhostBuster Sauce,1
 2025-02-13,GhostBuster Sauce,1
-2025-02-14,GhostBuster Sauce,1
 2025-02-01,Iced Green Tea - Peach,2
 2025-02-02,Iced Green Tea - Peach,2
 2025-02-03,Iced Green Tea - Peach,2
@@ -1244,7 +1156,6 @@ date,meal,num_orders
 2025-02-11,Iced Green Tea - Peach,1
 2025-02-12,Iced Green Tea - Peach,2
 2025-02-13,Iced Green Tea - Peach,1
-2025-02-14,Iced Green Tea - Peach,1
 2025-02-01,Chicken 65 Boneless Grilled Chicken Breast,1
 2025-02-02,Chicken 65 Boneless Grilled Chicken Breast,1
 2025-02-03,Chicken 65 Boneless Grilled Chicken Breast,1
@@ -1258,7 +1169,6 @@ date,meal,num_orders
 2025-02-11,Chicken 65 Boneless Grilled Chicken Breast,1
 2025-02-12,Chicken 65 Boneless Grilled Chicken Breast,1
 2025-02-13,Chicken 65 Boneless Grilled Chicken Breast,1
-2025-02-14,Chicken 65 Boneless Grilled Chicken Breast,1
 2025-01-29,Crushed Papad,1
 2025-01-30,Crushed Papad,1
 2025-01-31,Crushed Papad,1
@@ -1272,7 +1182,6 @@ date,meal,num_orders
 2025-02-08,Crushed Papad,1
 2025-02-09,Crushed Papad,2
 2025-02-10,Crushed Papad,1
-2025-02-11,Crushed Papad,1
 2025-02-01,AAC Signature Crisper Fries,1
 2025-02-02,AAC Signature Crisper Fries,1
 2025-02-03,AAC Signature Crisper Fries,1
@@ -1286,7 +1195,6 @@ date,meal,num_orders
 2025-02-11,AAC Signature Crisper Fries,1
 2025-02-12,AAC Signature Crisper Fries,1
 2025-02-13,AAC Signature Crisper Fries,1
-2025-02-14,AAC Signature Crisper Fries,1
 2024-11-24,Brocolli Onion Pizza,1
 2024-11-25,Brocolli Onion Pizza,3
 2024-11-26,Brocolli Onion Pizza,1
@@ -1300,7 +1208,6 @@ date,meal,num_orders
 2024-12-04,Brocolli Onion Pizza,-7
 2024-12-05,Brocolli Onion Pizza,1
 2024-12-06,Brocolli Onion Pizza,1
-2024-12-07,Brocolli Onion Pizza,1
 2025-02-01,Onion Rings,3
 2025-02-02,Onion Rings,4
 2025-02-03,Onion Rings,3
@@ -1314,7 +1221,6 @@ date,meal,num_orders
 2025-02-11,Onion Rings,2
 2025-02-12,Onion Rings,2
 2025-02-13,Onion Rings,3
-2025-02-14,Onion Rings,3
 2025-02-01,Indian Masala Cripser Fries,2
 2025-02-02,Indian Masala Cripser Fries,3
 2025-02-03,Indian Masala Cripser Fries,2
@@ -1328,7 +1234,6 @@ date,meal,num_orders
 2025-02-11,Indian Masala Cripser Fries,2
 2025-02-12,Indian Masala Cripser Fries,2
 2025-02-13,Indian Masala Cripser Fries,2
-2025-02-14,Indian Masala Cripser Fries,2
 2025-01-29,Mayonnaise,1
 2025-01-30,Mayonnaise,1
 2025-01-31,Mayonnaise,1
@@ -1342,7 +1247,6 @@ date,meal,num_orders
 2025-02-08,Mayonnaise,1
 2025-02-09,Mayonnaise,1
 2025-02-10,Mayonnaise,1
-2025-02-11,Mayonnaise,1
 2025-02-01,Peri Peri Crisper Fries,5
 2025-02-02,Peri Peri Crisper Fries,4
 2025-02-03,Peri Peri Crisper Fries,4
@@ -1356,7 +1260,6 @@ date,meal,num_orders
 2025-02-11,Peri Peri Crisper Fries,4
 2025-02-12,Peri Peri Crisper Fries,4
 2025-02-13,Peri Peri Crisper Fries,4
-2025-02-14,Peri Peri Crisper Fries,4
 2025-02-01,Salted Crisper Fries,1
 2025-02-02,Salted Crisper Fries,2
 2025-02-03,Salted Crisper Fries,2
@@ -1370,7 +1273,6 @@ date,meal,num_orders
 2025-02-11,Salted Crisper Fries,2
 2025-02-12,Salted Crisper Fries,1
 2025-02-13,Salted Crisper Fries,2
-2025-02-14,Salted Crisper Fries,2
 2025-02-01,AAC Grilled Chicken Burger,2
 2025-02-02,AAC Grilled Chicken Burger,2
 2025-02-03,AAC Grilled Chicken Burger,2
@@ -1384,7 +1286,6 @@ date,meal,num_orders
 2025-02-11,AAC Grilled Chicken Burger,2
 2025-02-12,AAC Grilled Chicken Burger,2
 2025-02-13,AAC Grilled Chicken Burger,2
-2025-02-14,AAC Grilled Chicken Burger,2
 2025-01-29,AAC Fried Paneer Burger,1
 2025-01-30,AAC Fried Paneer Burger,3
 2025-01-31,AAC Fried Paneer Burger,1
@@ -1398,7 +1299,6 @@ date,meal,num_orders
 2025-02-08,AAC Fried Paneer Burger,3
 2025-02-09,AAC Fried Paneer Burger,1
 2025-02-10,AAC Fried Paneer Burger,1
-2025-02-11,AAC Fried Paneer Burger,2
 2025-01-29,Angara Sauce,1
 2025-01-30,Angara Sauce,1
 2025-01-31,Angara Sauce,1
@@ -1412,7 +1312,6 @@ date,meal,num_orders
 2025-02-08,Angara Sauce,1
 2025-02-09,Angara Sauce,1
 2025-02-10,Angara Sauce,1
-2025-02-11,Angara Sauce,1
 2025-01-11,Peri Peri Boneless Grilled Chicken Breast,2
 2025-01-12,Peri Peri Boneless Grilled Chicken Breast,1
 2025-01-13,Peri Peri Boneless Grilled Chicken Breast,2
@@ -1426,7 +1325,6 @@ date,meal,num_orders
 2025-01-21,Peri Peri Boneless Grilled Chicken Breast,2
 2025-01-22,Peri Peri Boneless Grilled Chicken Breast,3
 2025-01-23,Peri Peri Boneless Grilled Chicken Breast,2
-2025-01-24,Peri Peri Boneless Grilled Chicken Breast,3
 2025-02-01,Smoky BBQ Boneless Grilled Chicken Breast,1
 2025-02-02,Smoky BBQ Boneless Grilled Chicken Breast,1
 2025-02-03,Smoky BBQ Boneless Grilled Chicken Breast,0
@@ -1440,7 +1338,6 @@ date,meal,num_orders
 2025-02-11,Smoky BBQ Boneless Grilled Chicken Breast,2
 2025-02-12,Smoky BBQ Boneless Grilled Chicken Breast,1
 2025-02-13,Smoky BBQ Boneless Grilled Chicken Breast,1
-2025-02-14,Smoky BBQ Boneless Grilled Chicken Breast,1
 2025-02-01,Smoky BBQ Sauce,1
 2025-02-02,Smoky BBQ Sauce,1
 2025-02-03,Smoky BBQ Sauce,1
@@ -1454,7 +1351,6 @@ date,meal,num_orders
 2025-02-11,Smoky BBQ Sauce,1
 2025-02-12,Smoky BBQ Sauce,1
 2025-02-13,Smoky BBQ Sauce,1
-2025-02-14,Smoky BBQ Sauce,1
 2025-02-01,AAC Grilled Paneer Burger,1
 2025-02-02,AAC Grilled Paneer Burger,1
 2025-02-03,AAC Grilled Paneer Burger,1
@@ -1468,7 +1364,6 @@ date,meal,num_orders
 2025-02-11,AAC Grilled Paneer Burger,1
 2025-02-12,AAC Grilled Paneer Burger,1
 2025-02-13,AAC Grilled Paneer Burger,1
-2025-02-14,AAC Grilled Paneer Burger,1
 2025-01-31,Dirty Saucy Fries,1
 2025-02-01,Dirty Saucy Fries,4
 2025-02-02,Dirty Saucy Fries,2
@@ -1482,7 +1377,6 @@ date,meal,num_orders
 2025-02-10,Dirty Saucy Fries,3
 2025-02-11,Dirty Saucy Fries,3
 2025-02-12,Dirty Saucy Fries,3
-2025-02-13,Dirty Saucy Fries,4
 2025-02-01,Atomic Veg Burger,2
 2025-02-02,Atomic Veg Burger,1
 2025-02-03,Atomic Veg Burger,1
@@ -1496,7 +1390,6 @@ date,meal,num_orders
 2025-02-11,Atomic Veg Burger,1
 2025-02-12,Atomic Veg Burger,1
 2025-02-13,Atomic Veg Burger,1
-2025-02-14,Atomic Veg Burger,1
 2025-01-27,Classic Bacon Melt Tenderloin Burger,1
 2025-01-28,Classic Bacon Melt Tenderloin Burger,1
 2025-01-29,Classic Bacon Melt Tenderloin Burger,1
@@ -1510,7 +1403,6 @@ date,meal,num_orders
 2025-02-06,Classic Bacon Melt Tenderloin Burger,1
 2025-02-07,Classic Bacon Melt Tenderloin Burger,1
 2025-02-08,Classic Bacon Melt Tenderloin Burger,1
-2025-02-09,Classic Bacon Melt Tenderloin Burger,1
 2025-02-01,Grilled Chicken Dirty Burger,2
 2025-02-02,Grilled Chicken Dirty Burger,3
 2025-02-03,Grilled Chicken Dirty Burger,2
@@ -1524,7 +1416,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Dirty Burger,2
 2025-02-12,Grilled Chicken Dirty Burger,2
 2025-02-13,Grilled Chicken Dirty Burger,2
-2025-02-14,Grilled Chicken Dirty Burger,3
 2025-02-01,Grilled Chicken Tangdi,3
 2025-02-02,Grilled Chicken Tangdi,7
 2025-02-03,Grilled Chicken Tangdi,4
@@ -1538,7 +1429,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Tangdi,2
 2025-02-12,Grilled Chicken Tangdi,3
 2025-02-13,Grilled Chicken Tangdi,2
-2025-02-14,Grilled Chicken Tangdi,3
 2025-02-01,Raw Masala Lemon Shikanji,1
 2025-02-02,Raw Masala Lemon Shikanji,1
 2025-02-03,Raw Masala Lemon Shikanji,1
@@ -1552,7 +1442,6 @@ date,meal,num_orders
 2025-02-11,Raw Masala Lemon Shikanji,1
 2025-02-12,Raw Masala Lemon Shikanji,1
 2025-02-13,Raw Masala Lemon Shikanji,1
-2025-02-14,Raw Masala Lemon Shikanji,2
 2024-11-12,Bone in Jamaican Grilled Chicken .,3
 2024-11-13,Bone in Jamaican Grilled Chicken .,5
 2024-11-14,Bone in Jamaican Grilled Chicken .,3
@@ -1566,7 +1455,6 @@ date,meal,num_orders
 2024-11-22,Bone in Jamaican Grilled Chicken .,4
 2024-11-23,Bone in Jamaican Grilled Chicken .,6
 2024-11-24,Bone in Jamaican Grilled Chicken .,5
-2024-11-25,Bone in Jamaican Grilled Chicken .,4
 2025-02-01,Mutton Smashed Burger,4
 2025-02-02,Mutton Smashed Burger,9
 2025-02-03,Mutton Smashed Burger,6
@@ -1580,7 +1468,6 @@ date,meal,num_orders
 2025-02-11,Mutton Smashed Burger,7
 2025-02-12,Mutton Smashed Burger,6
 2025-02-13,Mutton Smashed Burger,8
-2025-02-14,Mutton Smashed Burger,7
 2025-01-29,Coleslaw,1
 2025-01-30,Coleslaw,1
 2025-01-31,Coleslaw,1
@@ -1594,7 +1481,6 @@ date,meal,num_orders
 2025-02-08,Coleslaw,2
 2025-02-09,Coleslaw,3
 2025-02-10,Coleslaw,1
-2025-02-11,Coleslaw,1
 2025-02-01,Fried Chicken Tenders,9
 2025-02-02,Fried Chicken Tenders,5
 2025-02-03,Fried Chicken Tenders,4
@@ -1608,7 +1494,6 @@ date,meal,num_orders
 2025-02-11,Fried Chicken Tenders,3
 2025-02-12,Fried Chicken Tenders,5
 2025-02-13,Fried Chicken Tenders,3
-2025-02-14,Fried Chicken Tenders,5
 2025-02-01,Fried Chicken Beast AAC Burger,1
 2025-02-02,Fried Chicken Beast AAC Burger,2
 2025-02-03,Fried Chicken Beast AAC Burger,3
@@ -1622,7 +1507,6 @@ date,meal,num_orders
 2025-02-11,Fried Chicken Beast AAC Burger,3
 2025-02-12,Fried Chicken Beast AAC Burger,2
 2025-02-13,Fried Chicken Beast AAC Burger,3
-2025-02-14,Fried Chicken Beast AAC Burger,3
 2025-01-31,Indian Salsa,1
 2025-02-01,Indian Salsa,1
 2025-02-02,Indian Salsa,1
@@ -1636,7 +1520,6 @@ date,meal,num_orders
 2025-02-10,Indian Salsa,1
 2025-02-11,Indian Salsa,1
 2025-02-12,Indian Salsa,1
-2025-02-13,Indian Salsa,1
 2025-01-25,Harissa Mayo,1
 2025-01-26,Harissa Mayo,2
 2025-01-27,Harissa Mayo,1
@@ -1650,7 +1533,6 @@ date,meal,num_orders
 2025-02-04,Harissa Mayo,3
 2025-02-05,Harissa Mayo,1
 2025-02-06,Harissa Mayo,1
-2025-02-07,Harissa Mayo,2
 2025-01-30,Loaded Pork Pepperoni Pizza,4
 2025-01-31,Loaded Pork Pepperoni Pizza,2
 2025-02-01,Loaded Pork Pepperoni Pizza,1
@@ -1664,7 +1546,6 @@ date,meal,num_orders
 2025-02-09,Loaded Pork Pepperoni Pizza,2
 2025-02-10,Loaded Pork Pepperoni Pizza,8
 2025-02-11,Loaded Pork Pepperoni Pizza,2
-2025-02-12,Loaded Pork Pepperoni Pizza,2
 2025-02-01,Loaded Jamaican Grilled Chicken Pizza,2
 2025-02-02,Loaded Jamaican Grilled Chicken Pizza,2
 2025-02-03,Loaded Jamaican Grilled Chicken Pizza,2
@@ -1678,7 +1559,6 @@ date,meal,num_orders
 2025-02-11,Loaded Jamaican Grilled Chicken Pizza,3
 2025-02-12,Loaded Jamaican Grilled Chicken Pizza,2
 2025-02-13,Loaded Jamaican Grilled Chicken Pizza,2
-2025-02-14,Loaded Jamaican Grilled Chicken Pizza,3
 2025-01-31,Loaded Korean Grilled Chicken Pizza,2
 2025-02-01,Loaded Korean Grilled Chicken Pizza,2
 2025-02-02,Loaded Korean Grilled Chicken Pizza,2
@@ -1692,7 +1572,6 @@ date,meal,num_orders
 2025-02-10,Loaded Korean Grilled Chicken Pizza,3
 2025-02-11,Loaded Korean Grilled Chicken Pizza,3
 2025-02-12,Loaded Korean Grilled Chicken Pizza,2
-2025-02-13,Loaded Korean Grilled Chicken Pizza,2
 2025-02-01,Grilled Chicken Jamaican Boneless Breast,18
 2025-02-02,Grilled Chicken Jamaican Boneless Breast,18
 2025-02-03,Grilled Chicken Jamaican Boneless Breast,19
@@ -1706,7 +1585,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Jamaican Boneless Breast,38
 2025-02-12,Grilled Chicken Jamaican Boneless Breast,37
 2025-02-13,Grilled Chicken Jamaican Boneless Breast,38
-2025-02-14,Grilled Chicken Jamaican Boneless Breast,48
 2025-02-01,Grilled Chicken Angara Boneless Breast,14
 2025-02-02,Grilled Chicken Angara Boneless Breast,17
 2025-02-03,Grilled Chicken Angara Boneless Breast,19
@@ -1720,7 +1598,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Angara Boneless Breast,30
 2025-02-12,Grilled Chicken Angara Boneless Breast,31
 2025-02-13,Grilled Chicken Angara Boneless Breast,30
-2025-02-14,Grilled Chicken Angara Boneless Breast,33
 2025-02-01,Grilled Chicken Smoky Bbq Boneless Breast,5
 2025-02-02,Grilled Chicken Smoky Bbq Boneless Breast,5
 2025-02-03,Grilled Chicken Smoky Bbq Boneless Breast,5
@@ -1734,7 +1611,6 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Smoky Bbq Boneless Breast,11
 2025-02-12,Grilled Chicken Smoky Bbq Boneless Breast,9
 2025-02-13,Grilled Chicken Smoky Bbq Boneless Breast,9
-2025-02-14,Grilled Chicken Smoky Bbq Boneless Breast,16
 2025-02-01,Grilled Chicken Peri Peri Boneless Breast,7
 2025-02-02,Grilled Chicken Peri Peri Boneless Breast,7
 2025-02-03,Grilled Chicken Peri Peri Boneless Breast,7
@@ -1748,4 +1624,3 @@ date,meal,num_orders
 2025-02-11,Grilled Chicken Peri Peri Boneless Breast,13
 2025-02-12,Grilled Chicken Peri Peri Boneless Breast,13
 2025-02-13,Grilled Chicken Peri Peri Boneless Breast,13
-2025-02-14,Grilled Chicken Peri Peri Boneless Breast,19
