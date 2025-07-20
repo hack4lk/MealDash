@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MealDash 🍽️
 
 **Intelligent Meal Forecasting for Food Service Excellence**
@@ -369,5 +368,3 @@ export default tseslint.config([
     },
   },
 ])
-```
->>>>>>> 5a05e1c (Initial commit front end)
