@@ -6,6 +6,7 @@ import 'react-date-range/dist/styles.css'
 import 'react-date-range/dist/theme/default.css'
 import { useAuth } from '@/contexts/AuthProvider'
 import { useNavigate } from 'react-router-dom'
+import { ClipLoader } from 'react-spinners'
 
 const mealOptions = [
   { value: 'chicken_grill', label: 'Chicken Grill' },
@@ -16,10 +17,11 @@ const mealOptions = [
 
 export default function PredictionFormPage() {
   const navigate = useNavigate()
+  const [isLoading, setIsLoading] = useState(false)
   const [meal, setMeal] = useState<{ value: string; label: string }[] | null>(
     null,
   )
-  const { logout } = useAuth();
+  const { logout } = useAuth()
   const [range, setRange] = useState([
     {
       startDate: new Date(),
@@ -62,6 +64,7 @@ export default function PredictionFormPage() {
     console.log('dataToSend', dataToSend)
 
     try {
+      setIsLoading(true)
       const res = await fetch('http://localhost:3001/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -77,7 +80,6 @@ export default function PredictionFormPage() {
         meals: items,
         test: result?.answer,
       })
-      alert('✅ Data sent successfully!')
     } catch (err) {
       console.error(err)
       setPrediction({
@@ -85,11 +87,12 @@ export default function PredictionFormPage() {
         ingredients: [{ name: 'test', quantity: '50' }],
         meals: ['meail 1: 250 orders'],
       })
-      alert('Error sending data')
+    } finally {
+      setIsLoading(false)
     }
   }
   const handleLogout = async () => {
-    await logout();
+    await logout()
     navigate('/')
   }
 
@@ -101,6 +104,7 @@ export default function PredictionFormPage() {
       >
         Logout
       </button>
+
       <div className="w-full flex items-start justify-center bg-gray-50 p-4 h-[99vh] gap-6">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -108,7 +112,7 @@ export default function PredictionFormPage() {
             backgroundImage: `url('/background_image.png')`,
           }}
         />
-        <div className="w-1/2 h-full bg-white shadow-xl rounded-lg p-8 z-10 flex flex-col justify-between ">
+        <div className="w-1/2 h-full bg-white shadow-xl rounded-lg p-8 z-10 flex flex-col">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
             Plan Your Perfect Meal
           </h2>
@@ -146,15 +150,22 @@ export default function PredictionFormPage() {
           </button>
         </div>
 
-        <div className="w-1/3 h-full bg-white shadow-xl rounded-lg p-8 z-10 flex flex-col justify-between overflow-y-auto">
+        <div className="w-1/3 h-full bg-white shadow-xl rounded-lg p-8 z-10 flex flex-col overflow-y-auto">
           <div>
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
               Prediction Overview
             </h2>
             <p className="text-center text-gray-500 mb-6">
-              Based on your selected meal and date range, here is the estimation:
+              Based on your selected meal and date range, here is the
+              estimation:
             </p>
+          </div>
 
+          {isLoading ? (
+            <div className="flex justify-center items-center flex-1">
+              <ClipLoader size={50} color="#4f46e5" />
+            </div>
+          ) : (
             <>
               <div className="bg-gray-100 rounded-md p-4 mb-4">
                 <h3 className="text-lg font-semibold text-gray-700 mb-1">
@@ -186,7 +197,7 @@ export default function PredictionFormPage() {
                   className="list-disc list-inside space-y-1 text-gray-600 text-sm"
                   style={{ maxHeight: '280px', overflowY: 'scroll' }}
                 >
-                  {prediction.ingredients.map((ing, i) => (
+                  {prediction?.ingredients.map((ing, i) => (
                     <li key={i}>
                       {ing.quantity} of {ing.name}
                     </li>
@@ -194,8 +205,7 @@ export default function PredictionFormPage() {
                 </ul>
               </div>
             </>
-          </div>
-
+          )}
           <p className="text-center text-xs text-gray-400 mt-8">
             Results are estimates based on historical data.
           </p>
