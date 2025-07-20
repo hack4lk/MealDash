@@ -20,7 +20,8 @@ exports.askForecast = async (req, res) => {
 
   try {
     const answer = await forecastService.askLLM(query, date, item_lines);
-    res.json({ answer });
+    console.log(answer);
+    res.json(answer);
   } catch (error) {
     res.status(500).json({ error });
   }

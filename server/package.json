@@ -4,6 +4,7 @@
   "main": "api/server.js",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "extract-json-from-string-y": "^1.0.3"
   }
 }

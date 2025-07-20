@@ -22,7 +22,7 @@ for meal in grouped['Item Name'].unique():
     try:
         model = SARIMAX(meal_df['num_orders'], order=(1,1,1), seasonal_order=(1,1,1,7))
         result = model.fit(disp=False)
-
+        print(f"Model results for {meal}: {result.summary()}")
         pred = result.get_forecast(steps=int(query))
         dates = [meal_df.index[-1] + timedelta(days=i) for i in range(1, int(query))]
         forecast_values = np.round(pred.predicted_mean).astype(int)
